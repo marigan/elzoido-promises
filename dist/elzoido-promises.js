@@ -1,6 +1,6 @@
 /**
  * @license
- * elzoido-promises 0.1.0
+ * elzoido-promises 0.1.2
  * (c) 2014 marigan.net
  * License: GPL-3.0+
  */
