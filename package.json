@@ -1,0 +1,13 @@
+{
+  "name": "elzoido-promises",
+  "description": "AngularJS Pessages Module",
+  "author": "Michal Mocnak",
+  "version": "0.1.0",
+  "repository": "",
+  "dependencies": {
+    "javascript-brunch": "~1.6.0",
+    "ng-annotate-uglify-js-brunch": "^1.7.4",
+    "coffee-script-brunch": "~1.7.2",
+    "aang-template-brunch" : "~1.7.6"
+  }
+}

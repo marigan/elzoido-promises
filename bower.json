@@ -1,0 +1,34 @@
+{
+  "name": "elzoido-promises",
+  "version": "0.1.0",
+  "main": "dist/elzoido-promises.js",
+  "license": "GPL-3.0+",
+  "dependencies": {
+    "angular": ">=1.2.21",
+    "lodash": "~2.4.1",
+    "dialogs": "~5.2.1"
+  },
+  "ignore": [
+    ".*",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "app",
+    "config.coffee",
+    "package.json"
+  ],
+  "homepage": "http://github.com/marigan/elzoido-promises",
+  "authors": [
+    "Michal Mocnak <michal@marigan.net>"
+  ],
+  "description": "AngularJS Promises Module",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "service",
+    "promises"
+  ],
+  "private": true
+}
