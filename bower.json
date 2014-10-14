@@ -6,7 +6,7 @@
   "dependencies": {
     "angular": ">=1.2.21",
     "lodash": "~2.4.1",
-    "dialogs": "~5.2.1"
+    "angular-dialog-service": "~5.2.1"
   },
   "ignore": [
     ".*",
