@@ -38,6 +38,9 @@ angular.module('elzoido.promises').factory 'elzoidoPromises', ($rootScope, $q, $
     else
       groups[group].length > 0
 
+  getPromise = (group) ->
+    $q.all(groups[group])
+
   # show wait dialog until whole group is finished
   waitForGroup = (group, message) ->
     $timeout(->
@@ -45,7 +48,7 @@ angular.module('elzoido.promises').factory 'elzoidoPromises', ($rootScope, $q, $
         # open waiting dialog
         wait = dialogs.wait('Please wait', message)
         # close when all promises done
-        $q.all(groups[group]).then ->
+        getPromise(group).then ->
           wait.close()
     , elzoidoPromisesModule.config.timeout)
 
@@ -68,3 +71,7 @@ angular.module('elzoido.promises').factory 'elzoidoPromises', ($rootScope, $q, $
   # show wait dialog until whole group is finished
   wait: (group, message) ->
     waitForGroup(group, message)
+
+  # return promise for specific group
+  promise: (group) ->
+    getPromise(group)

@@ -2,7 +2,7 @@
   "name": "elzoido-promises",
   "description": "AngularJS Pessages Module",
   "author": "Michal Mocnak",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "repository": "",
   "dependencies": {
     "javascript-brunch": "~1.6.0",
